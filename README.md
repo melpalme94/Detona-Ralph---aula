@@ -1,11 +1,31 @@
-#Criando um Jogo do Detona Ralph com JavaScript
+# 🕹️ Jogo do Detona Ralph com JavaScript
 
-##Atividade feito  da DIO.me, No Cursos Bootcamp "Ri-Happy Front-End"##
+Projeto desenvolvido como parte da atividade prática do curso **Bootcamp Ri-Happy Front-End** da plataforma **DIO.me**.  
+O objetivo é criar um mini jogo interativo inspirado no universo de *Detona Ralph*, utilizando tecnologias web como HTML, CSS e JavaScript.
 
-Em criar um jogo de com um Sistema de Pontuação que acompanhe sua pontuação à medida que progride no jogo.
+---
 
-###Tecnologias Utilizadas
+## 🎯 Objetivo do Jogo
 
--HTML5 e CSS3 para a estrutura e aparência do jogo.
--JavaScript para a lógica de programação e interatividade.
--Sprites e imagens customizadas para criar a estética única do universo de Detona Ralph.
+O jogador deve clicar no Ralph (personagem inimigo) que aparece aleatoriamente em uma grade de quadrados.  
+A cada acerto, a pontuação aumenta. O jogo tem duração limitada, e ao final o resultado é exibido.
+
+---
+
+## 🧰 Tecnologias Utilizadas
+
+- **HTML5** — Estrutura da página e elementos do jogo.
+- **CSS3** — Estilização e aparência da interface.
+- **JavaScript (Vanilla)** — Lógica de jogo, manipulação DOM e sistema de pontuação.
+- **Sprites/Imagens Personalizadas** — Estética visual inspirada no universo do Detona Ralph.
+
+---
+
+## 📦 Estrutura do Projeto
+
+```bash
+.
+├── index.html        # Página principal do jogo
+├── style.css         # Estilo visual e layout
+├── script.js         # Lógica do jogo
+└── ralph.png         # Imagem do personagem (inimigo)
